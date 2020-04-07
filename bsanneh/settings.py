@@ -25,7 +25,7 @@ SECRET_KEY = 'yr-aiqnl0ihc2ph=%e3pmgr7_2u)4)v)e0_e4g#*cgqs7uhc7a'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['167.99.230.167']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -74,24 +74,12 @@ WSGI_APPLICATION = 'bsanneh.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
-#     DATABASES = {
-#         'default': {
-#             'ENGINE': 'django.db.backends.sqlite3',
-#             'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-#         }
-#     }
-
-      DATABASES = {
-          'default': {
-              'ENGINE': 'django.db.backends.postgresql_psycopg2',
-              'NAME': 'bsanneh',
-              'USER': 'admin',
-              'PASSWORD': 'P@$$w0rd',
-              'HOST': 'localhost',
-              'PORT': '',
-          }
-      }
-
+    #  DATABASES = {
+    #      'default': {
+    #          'ENGINE': 'django.db.backends.sqlite3',
+    #          'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    #      }
+    #  }
 # Password validation
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
 
