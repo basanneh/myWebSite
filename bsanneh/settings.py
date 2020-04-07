@@ -81,16 +81,16 @@ WSGI_APPLICATION = 'bsanneh.wsgi.application'
 #         }
 #     }
 
-    DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.postgresql_psycopg2',
-            'NAME': 'bsanneh',
-            'USER': 'admin',
-            'PASSWORD': 'P@$$w0rd',
-            'HOST': 'localhost',
-            'PORT': '',
-        }
-    }
+      DATABASES = {
+          'default': {
+              'ENGINE': 'django.db.backends.postgresql_psycopg2',
+              'NAME': 'bsanneh',
+              'USER': 'admin',
+              'PASSWORD': 'P@$$w0rd',
+              'HOST': 'localhost',
+              'PORT': '',
+          }
+      }
 
 # Password validation
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
