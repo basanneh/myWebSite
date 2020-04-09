@@ -25,8 +25,8 @@ SECRET_KEY = 'yr-aiqnl0ihc2ph=%e3pmgr7_2u)4)v)e0_e4g#*cgqs7uhc7a'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1','167.99.230.167','www.bsanneh.com','[::1]']
-
+ALLOWED_HOSTS = ['*']
+# ALLOWED_HOSTS = ['localhost', '127.0.0.1','167.99.230.167','www.bsanneh.com','.bsanneh.com','bsanneh.com','[::1]']
 
 # Application definition
 
