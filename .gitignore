@@ -4,5 +4,4 @@ virtual
 db.sqlite3
 /static
 .DS_Store
-/bsanneh/settings.py
 .env
