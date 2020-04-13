@@ -27,8 +27,8 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
-# ALLOWED_HOSTS = ['localhost', '127.0.0.1','167.99.230.167','www.bsanneh.com','.bsanneh.com','bsanneh.com','[::1]']
+#ALLOWED_HOSTS = ['*']
+# ALLOWED_HOSTS = ['localhost', '127.0.0.1','67.205.185.241','www.bsanneh.com','bsanneh.com','[::1]']
 
 # Application definition
 
@@ -75,6 +75,7 @@ WSGI_APPLICATION = 'bsanneh.wsgi.application'
 
 
 # Database
+
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
     #  DATABASES = {
