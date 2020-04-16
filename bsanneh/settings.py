@@ -28,7 +28,7 @@ SECRET_KEY = config('SECRET_KEY')
 DEBUG = True
 
 #ALLOWED_HOSTS = ['*']
-# ALLOWED_HOSTS = ['localhost', '127.0.0.1','67.205.185.241','www.bsanneh.com','bsanneh.com','[::1]']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1','67.205.185.241','www.bsanneh.com','bsanneh.com','[::1]']
 
 # Application definition
 
